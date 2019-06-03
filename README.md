@@ -1,9 +1,13 @@
 # Java
 
 -To run the java file, you should clone the repository to any of your directories
+
 -Then in your command line, change your directory to the directory that you cloned the repository.
+
 -Change your directory to The Java directory.
+
 -Run ``javac PLproject.java``
+
 -Run ``java PLproject [date]``
 
 usage example:
