@@ -1,3 +1,4 @@
+import sys
 with open('weblog.csv') as weblog:
     lines = [line.split(' ') for line in weblog]
 
@@ -29,4 +30,5 @@ def getIP(date='30/Nov/2017'):
         l.append(result[date][i])
     return l
 
-print(getIP())
+print(getIP(sys.argv[1]))
+
