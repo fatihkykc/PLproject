@@ -27,9 +27,6 @@ public class PLproject {
 
     public static void main(String[] args) throws FileNotFoundException, IOException {
 
-//     Create a HashMap object with key linenumber and value ip
-//     The key "Date" is a key to the map ip and linenumber
-//     Add keys and values (linenumber, ip)
         String weblog = "weblog.csv";
         File file = new File(weblog);
         BufferedReader reader = new BufferedReader(new FileReader(file));
